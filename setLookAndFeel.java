@@ -5,8 +5,8 @@ private void setLookAndFeel()
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		SwingUtilities.updateComponentTreeUI(this);
 	}
-	catch (InstantiationException e) {}
-	catch (ClassNotFoundException e) {}
-	catch (UnsupportedLookAndFeelException e) {}
-	catch (IllegalAccessException e) {}
+	catch (InstantiationException e)		{}
+	catch (ClassNotFoundException e)		{}
+	catch (UnsupportedLookAndFeelException e)	{}
+	catch (IllegalAccessException e)		{}
 }
